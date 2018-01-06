@@ -1,0 +1,19 @@
+{
+  "name": "croppie-browserify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "build": "browserify main.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "croppie": "git+https://github.com/sarunint/Croppie.git#remove-export"
+  },
+  "devDependencies": {
+    "browserify": "^15.0.0",
+    "http-server": "^0.10.0"
+  }
+}
